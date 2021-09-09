@@ -1,4 +1,5 @@
-
+CovidDashboard
+Ranjith Kanumilli
 
 ## Project setup
 ```

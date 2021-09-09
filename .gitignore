@@ -5,7 +5,6 @@ node_modules
 .firebase.json
 /dist
 
-
 # local env files
 .env.local
 .env.*.local
