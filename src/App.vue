@@ -16,7 +16,6 @@ import Summary from "@/components/Summary";
 import Chart from "@/components/Chart";
 import Table from "@/components/Table";
 import Footer from "@/components/Footer";
-
 import { mapActions } from "vuex";
 
 export default {

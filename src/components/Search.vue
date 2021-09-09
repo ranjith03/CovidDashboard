@@ -40,6 +40,7 @@ export default {
       selected: 0
     };
   },
+  
   computed: {
     matches() {
       if (this.query == "") {

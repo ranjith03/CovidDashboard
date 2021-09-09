@@ -45,6 +45,7 @@ export default Vuex.createStore({
       state.countryData = value;
     }
   },
+  
   actions: {
     async fetchCountries({ commit }) {
       try {

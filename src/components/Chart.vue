@@ -30,7 +30,6 @@ export default {
     return {
       countryCode: "",
       loader: true,
-    
       series: [],
       options: {
         chart: {

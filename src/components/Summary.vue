@@ -54,6 +54,7 @@ export default {
       loader: true
     };
   },
+  
   computed: {
     ...mapGetters(["getWorldSummary", "getCountriesSummary"]),
     totalConfirmed() {
