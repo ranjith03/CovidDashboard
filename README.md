@@ -1,4 +1,4 @@
-CovidDashboard - Vue3
+CovidDashboard
 
 Ranjith Kanumilli
 
