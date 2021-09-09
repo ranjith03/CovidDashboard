@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --primary-color: #191c29;
+  --secondary-color: #1f2330;
+  --primary: 95, 193, 215;
+  --third: 94, 181, 89;
+  --second: 226, 37, 43;
+  --light: 242, 242, 242;
+  --gray-1: 153, 153, 153;
+  --gray-2: 112, 112, 112;
+  --gray-3: 50, 50, 50;
+
+  --header-height: 80px;
+  --border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+}
+*,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+html {
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  padding-bottom: 95px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.container-wide {
+  max-width: 1100px;
+}
+
+:focus {
+  outline: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-gap {
+  margin-top: 40px;
+  
+}
+@media only screen and (max-width: 600px) {
+  .section-gap{
+  margin-top:30px;
+}
+}
+.section-title{
+    font-size:14px;
+    font-weight: 700;
+    padding: 20px 30px;
+    color:rgb(var(--gray-1))
+}
+
+  .text-left{
+        text-align: left!important;
+    }
+    .text-center{
+        text-align: center!important;
+    }
+    .text-right{
+        text-align: right!important;
+    }
+
+    .text-primary{
+      color:rgb(var(--primary))!important;
+    }
+    .text-second{
+      color:rgb(var(--second))!important;
+    }
+    .text-third{
+      color:rgb(var(--third))!important;
+    }
+
+.loading::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #000;
+    animation: spinner 0.6s linear infinite;
+  }
+
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
