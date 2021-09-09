@@ -3,10 +3,10 @@
     <div class="container container-wide section-gap">
       <footer class="footer">
         <div class="text">
-          <a href="#">Ranjith Kanumilli</a>
+          <a href="https://www.linkedin.com/in/ranjith-kumar-kanumilli-095101102/" target="_blank">Ranjith Kanumilli</a>
         </div>
         <div class="text text-icon">
-          <a href="#"><img class="github-icon" src="https://img.icons8.com/nolan/64/github.png"/>Github Repository</a>
+          <a href="https://github.com/ranjith03/CovidDashboard" target="_blank"><img class="github-icon" src="https://img.icons8.com/nolan/64/github.png"/>Github Repository</a>
         </div>
       </footer>
     </div>
